@@ -1,5 +1,5 @@
 {
-  "name": "whois",
+  "name": "whois-lib",
   "version": "1.0.0",
   "description": "This is just wrapping whois cli tools.",
   "main": "dest/src/index.js",
