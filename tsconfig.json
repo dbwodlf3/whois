@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "ES5",
+        "module": "CommonJS",
+        "inlineSourceMap": true,
+        "rootDir": "./",
+        "removeComments": true,
+        "strict": true,
+        "baseUrl": "./src",
+        "outDir": "./dest",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "charset": "utf8",
+        "downlevelIteration": true,
+        "declaration": true
+    },
+    "include":["./**/*.ts"],
+    "exclude": [
+    ]
+}
