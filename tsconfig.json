@@ -13,10 +13,10 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "charset": "utf8",
-        "downlevelIteration": true,
-        "declaration": true
+        "downlevelIteration": true
     },
     "include":["./**/*.ts"],
     "exclude": [
+        "test/**/.ts"
     ]
 }
