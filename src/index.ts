@@ -8,7 +8,7 @@ export function whois(url: string): Promise<string>{
     return new Promise((resolve, reject)=>{
         let io_data = '';
 
-        const child = spawn(`whois ${url}`, {shell: true});
+        const child = spawn('whois', [url], {shell: false});
     
         child.stdout.on("data", (data)=>{
             io_data += data;
